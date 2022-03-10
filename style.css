@@ -1,0 +1,124 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__photo {
+  max-width: 280px;
+}
+
+.user__info {
+  margin-left: 110px;
+}
+
+.user__info-header {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222222;
+}
+
+.user__info-location {
+  margin-bottom: 16px;
+}
+
+.user__info-location svg {
+  max-width: 22px;
+  padding-right: 7px;
+}
+
+.user__info-location p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #707070;
+}
+
+.user__info-city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user__info-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__btn-chat {
+  color: #fff;
+  width: 155px;
+  height: 50px;
+  margin-right: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #51A2F2;
+  border-radius: 25px;
+  border: none;
+}
+
+.user__btn-chat svg {
+  padding-right: 11px;
+}
+
+.user__btn-invite {
+  color: #fff;
+  width: 168px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(68.42deg, #50F2C4 0%, #26D0E3 39.67%, #757AFF 100%);
+  -webkit-box-shadow: 0px 1px 4px rgba(27, 80, 115, 0.13);
+          box-shadow: 0px 1px 4px rgba(27, 80, 115, 0.13);
+  border-radius: 25px;
+  border: none;
+}
+
+.user__btn-invite svg {
+  padding-right: 11px;
+}
+/*# sourceMappingURL=style.css.map */
