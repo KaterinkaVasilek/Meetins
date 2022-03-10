@@ -1,0 +1,29 @@
+.photos {
+    min-height: 650px;
+    padding-bottom: 55px;
+    &__content {
+        padding: 20px 0 0 20px;
+        & h3 {
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            color: #222222;
+            margin-bottom: 20px;
+        }
+    }
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin: 0 20px 20px 0;
+        border-radius: 2px;
+        &-box {
+            width: 333px;
+            height: 254px;
+            border: 1px solid #EAEAEA;
+        }
+    }
+}

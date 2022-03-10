@@ -1,10 +1,15 @@
 .user {
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
     &__photo {
         max-width: 280px;
+        & img {
+            margin: 20px auto 20px 20px;
+        }
     }
     &__info {
-        margin-left: 110px;
+        margin-top: 89px;
     }
     &__info-header {
         font-weight: 600;
@@ -13,6 +18,21 @@
         display: flex;
         align-items: center;
         color: #222222;
+        margin: 0 0 23px 0;
+        & h2 {
+            line-height: 38px;
+            margin: 0;
+        }
+    }
+    &__online {
+        width: 10px;
+        height: 10px;
+        background-color: #16D384;
+        border-radius: 50%;
+        background: #16D384;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 14px;
     }
     &__info-location {
         margin-bottom: 16px;
@@ -36,6 +56,9 @@
     &__info-btn {
         display: flex;
     }
+    &__menu {
+        margin-top: 27px;
+    }
     &__btn-chat {
         color: #fff;
         width: 155px;
@@ -48,7 +71,7 @@
         border-radius: 25px;
         border: none;
         & svg {
-            padding-right: 11px;
+            margin-right: 3px;
         }
     }
     &__btn-invite {
