@@ -130,8 +130,6 @@ select {
   border-radius: 50%;
   background: #16D384;
   border: 2px solid #FFFFFF;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-left: 14px;
 }
 
@@ -177,7 +175,7 @@ select {
 }
 
 .user__btn-chat {
-  color: #fff;
+  color: #FFFFFF;
   width: 155px;
   height: 50px;
   margin-right: 35px;
@@ -200,7 +198,7 @@ select {
 }
 
 .user__btn-invite {
-  color: #fff;
+  color: #FFFFFF;
   width: 168px;
   height: 50px;
   display: -webkit-box;
@@ -259,9 +257,6 @@ select {
   font-weight: 600;
   font-size: 19px;
   line-height: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -285,6 +280,12 @@ select {
   font-size: 16px;
   line-height: 22px;
   color: #707070;
+}
+
+.hobby__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hobby__item {
@@ -352,7 +353,7 @@ select {
 .popup__menu {
   margin: 70px 0 100px 200px;
   position: absolute;
-  background-color: #fff;
+  background-color: #FFFFFF;
   min-width: 171px;
   min-height: 150px;
   -webkit-box-shadow: 0px 0px 26px rgba(81, 81, 81, 0.15);
@@ -385,7 +386,7 @@ select {
   margin-top: -10px;
   z-index: 1;
   height: 0;
-  border-bottom: solid 11px #fff;
+  border-bottom: solid 11px #FFFFFF;
   border-left: solid 7px transparent;
   border-right: solid 7px transparent;
 }
@@ -401,4 +402,4 @@ select {
 .popup__item-top {
   margin-top: 28px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=profile.css.map */

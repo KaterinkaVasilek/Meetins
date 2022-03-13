@@ -9,7 +9,7 @@
             line-height: 26px;
             display: flex;
             align-items: center;
-            color: #222222;
+            color: $black;
             margin-bottom: 20px;
         }
     }
@@ -23,7 +23,7 @@
         &-box {
             width: 333px;
             height: 254px;
-            border: 1px solid #EAEAEA;
+            border: 1px solid $gray_3;
         }
     }
 }

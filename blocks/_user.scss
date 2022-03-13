@@ -17,7 +17,7 @@
         line-height: 38px;
         display: flex;
         align-items: center;
-        color: #222222;
+        color: $black;
         margin: 0 0 23px 0;
         & h2 {
             line-height: 38px;
@@ -27,11 +27,10 @@
     &__online {
         width: 10px;
         height: 10px;
-        background-color: #16D384;
+        background-color: $green;
         border-radius: 50%;
-        background: #16D384;
-        border: 2px solid #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: $green;
+        border: 2px solid $white;
         margin-left: 14px;
     }
     &__info-location {
@@ -46,7 +45,7 @@
             line-height: 18px;
             display: flex;
             align-items: center;
-            color: #707070;
+            color: $gray_0;
         }
     }
     &__info-city {
@@ -60,14 +59,14 @@
         margin-top: 27px;
     }
     &__btn-chat {
-        color: #fff;
+        color: $white;
         width: 155px;
         height: 50px;
         margin-right: 35px;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #51A2F2;
+        background: $blue;
         border-radius: 25px;
         border: none;
         & svg {
@@ -75,7 +74,7 @@
         }
     }
     &__btn-invite {
-        color: #fff;
+        color: $white;
         width: 168px;
         height: 50px;
         display: flex;
